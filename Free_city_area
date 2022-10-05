@@ -1,0 +1,31 @@
+class Free_city_area:
+  """
+  Документация класса. 
+  Класс описывает характеристики свободных территорий в городе - площадь, расположение и посещаемость/проходимость.
+  """
+ def __init__ (self, total_city_area:int, occupied_city_area, location_free_area: int, attendance: int):
+ 
+  """ Инициализация экземпляра класса"""
+  
+  self.total_area = total_city_area
+  self.occupied_city_area = occupied_city_area
+  self.location_free_area = location_free_area
+  self.attendance = attendance
+  
+ def get_free_area (self): 
+ 
+  """ Вычисление площади свободных территорий в городе """
+  ...
+  
+ def list_location_free_area (self):
+ 
+  """ Перечисление координат свободных территорий"""
+  ...
+  
+ def attendance_of_location (self):
+ 
+  """ Привязка показателя посещаемости к свободной территории"""
+  ...
+  
+   
+
