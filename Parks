@@ -1,0 +1,30 @@
+Class Parks:
+ 
+ """
+ Документация класса.
+ Класс описывает нормативные требования к паркам в России
+ """
+  def __init__(self, area: int, tree_number: int, infrastructure: list, services: list):
+   
+   """ Инициализация экземпляра класса""
+   
+   self.min_area = min_area
+   self.tree_percentage = tree_percentage
+   self.infrastructure = infrastructure
+   self.services = services
+   
+  def project_check (self):
+   
+    """ Проверка проекта парка на соответствие требованиям """
+    ...
+   
+  def tree_density (self):
+   
+   """ Определение плотности озеленения"""
+   ...
+   
+  def infrastructure_to_services (self):
+
+   """ Привязка объектов инфраструктуры к предоставялемым услугам """
+   ...
+   
