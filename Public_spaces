@@ -1,0 +1,39 @@
+class Public_spaces:
+ 
+ """
+ Документация класса. 
+ Класс описывает целевую аудиторию разных типов общественных пространств и присущие им активности.
+ """
+ 
+ def __init__ (self, city: str, space_types: set, activities: set, visitors_age: int, visitors_interests: set):
+  
+ """ Инициализация экземпляра класса"""
+ 
+  self.city = city
+  self.space_types = space_type
+  self.activities = activities
+  self.visitors_age = visitors_age
+  self. visitors_interests = visitors_interests
+  
+ def popular_space_type (self):
+   
+  """Определение самого популярного типа общественных пространств в городе по числу таких объектов"""
+  ...
+ 
+ def space_target (self):
+  
+  """Определение возраста целевой аудитории типа общественного пространства"""
+  ...
+  
+ def space_activities (self):
+ 
+ """ Привязка данных об активностях к общественному пространству """
+ ...
+ 
+
+ 
+ 
+  
+  
+  
+  
